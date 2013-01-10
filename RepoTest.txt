@@ -1,0 +1,10 @@
+<html>
+  <head>
+    <title> Local repo commit test</title>
+  </head>
+
+  <body>
+    <h1> Local repo commit </h1>
+		<p> Here is a test of commiting a file to github when created locally using windows github. </p>
+  </body>
+</html>
