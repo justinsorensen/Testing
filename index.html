@@ -26,7 +26,7 @@
   		
   		var effects = Array("blind","slide","explode","clip","fade","fold","shake","pulsate");
     
-		$("div").click(function () {
+		$("#clicker").click(function () {
 		
 				var effect = effects[Math.floor(Math.random()*effects.length)];
      			$(this).hide(effect, 1000);
@@ -51,7 +51,8 @@
     <div class="wrapper">
       <header>
         <h1>CSE594</h1>
-        <p>TestRepo</p>
+		<p id="clicker"><strong>Try clicking this text and see what happens!</strong></p>
+        <p id="clicker">TestRepo</p>
 
         <p class="view"><a href="https://github.com/justinsorensen/Testing">View the Project on GitHub <small>justinsorensen/Testing</small></a></p>
 
